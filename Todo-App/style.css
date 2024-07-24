@@ -1,0 +1,110 @@
+ * {
+     margin: 0px;
+     font-family: Arial, Helvetica, sans-serif;
+     list-style-type: none;
+ }
+
+ .heading {
+     text-align: center;
+ }
+
+ .heading>h1 {
+     padding: 20px;
+     color: rgb(0, 0, 0);
+     font-size: 2.5rem;
+ }
+
+ .hr {
+     margin-left: 25px;
+     margin-right: 25px;
+ }
+
+ .input-text {
+     margin-left: 20px;
+     margin-right: 40px;
+     margin-top: 40px;
+ }
+
+ .input-text>input {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 15px;
+     font-size: 17px;
+     border-radius: 10px;
+     outline: none;
+     border: none;
+     background-color: gainsboro;
+ }
+
+ .addbtn {
+     position: absolute;
+     top: 127px;
+     right: 140px;
+     width: 90px;
+     background-color: black;
+     color: white;
+     padding: 10px;
+     border: none;
+     border-radius: 10px;
+     font-size: 16px;
+ }
+
+ .allDel {
+     position: absolute;
+     top: 126px;
+     right: 21px;
+     width: 100px;
+     background-color: transparent;
+     color: rgb(0, 0, 0);
+     padding: 10px;
+     border-radius: 10px;
+     font-size: 16px;
+     border: 2px solid black;
+ }
+
+ .list>input {
+     width: 84%;
+     padding: 10px;
+     margin-bottom: 15px;
+     font-size: 17px;
+     border: none;
+     outline: none;
+     border-bottom: 1px solid gray;
+ }
+
+ @media only screen and (max-width: 800px) {
+     .list>input {
+         width: 85%;
+     }
+ }
+
+ .ul {
+     margin-left: -15px;
+ }
+
+ .btnedit {
+     background-color: rgb(0, 0, 0);
+     color: rgb(255, 255, 255);
+     position: absolute;
+     right: 140px;
+     width: 90px;
+     padding: 10px;
+     border: none;
+     border-radius: 10px;
+     font-size: 16px;
+     margin-top: 3px;
+ }
+
+ .btndel {
+     background-color: rgb(0, 0, 0);
+     color: rgb(255, 255, 255);
+     position: absolute;
+     right: 21px;
+     width: 100px;
+     padding: 10px;
+     border: none;
+     border-radius: 10px;
+     font-size: 16px;
+     margin-top: 3px;
+
+ }
